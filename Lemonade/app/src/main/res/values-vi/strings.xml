@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lemon_tree">cây chanh</string>
+    <string name="click_to_select_a_lemon">Nhấp để chọn một quả chanh!</string>
+    <string name="click_to_juice_the_lemon">Nhấp để vắt chanh!</string>
+    <string name="click_to_drink_your_lemonade">Nhấp để uống!</string>
+    <string name="click_to_start_again">Nhấp để làm lại!</string>
+    <string name="tap">Nhấp</string>
+    <string name="more_times_to_squeeze">lần nữa để vắt cực khô!</string>
+</resources>
