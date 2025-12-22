@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/btnShowAll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hiển thị tất cả các bản ghi" />
+
+        <!-- Bài 4 -->
+        <Button
+            android:id="@+id/btnTop5Visitors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bài 4: Top 5 park nhiều khách nhất" />
+
+        <!-- Bài 5 -->
+        <Button
+            android:id="@+id/btnCountDistinctCities"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bài 5: Đếm số thành phố khác nhau" />
+
+        <!-- Bài 6 -->
+        <Button
+            android:id="@+id/btnInsertPark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bài 6: Insert Googleplex" />
+
+        <!-- Bài 7 -->
+        <Button
+            android:id="@+id/btnDeletePark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bài 7: Delete Googleplex" />
+
+        <!-- Hiển thị kết quả -->
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:textSize="14sp"
+            android:text="Kết quả sẽ hiển thị ở đây" />
+    </LinearLayout>
+</ScrollView>
